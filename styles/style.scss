@@ -154,3 +154,54 @@ body {
         max-width: 25%;
     }
 }
+
+.instagram {
+    width: 100%;
+    display: flex;
+    &__etiam {
+        width: 50%;
+        background-color: #3f729b;
+        padding: 8% 0 0 8%;
+        & h3 {
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #f9f9f9;
+        }
+        & p {
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 36px;
+            line-height: 1.2;
+            font-weight: 300;
+            letter-spacing: 1px;
+            color: #f9f9f9;
+            margin: 5% 0 4% 0;
+        }
+        a {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+            border-radius: 25px;
+            padding: 2% 0;
+            &:hover {
+                background-color: #234561;
+            }
+        }
+    }
+    &__img {
+        width: 50%;
+        background-color: #3f729b;
+        & img {
+            max-width: 100%;
+        }
+    }
+}
