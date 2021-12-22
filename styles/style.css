@@ -438,4 +438,163 @@ body {
 .spotify__itunes a:hover {
   background-color: #4f5358;
 }
+
+.footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #212227;
+  padding: 7% 1% 7% 6%;
+}
+
+.footer h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f9f9f9;
+}
+
+.footer__dude p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #919191;
+  margin: 7% 0;
+}
+
+.footer__dude span {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #919191;
+  text-transform: uppercase;
+}
+
+.footer__contact p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #919191;
+  margin-top: 8%;
+}
+
+.footer__contact_phone {
+  margin-bottom: 30%;
+}
+
+.footer__contact a {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #919191;
+}
+
+.footer__contact a object {
+  width: 10%;
+  max-height: 4%;
+  color: #919191;
+  margin-right: 15%;
+}
+
+.footer__contact_follow {
+  margin-bottom: 13%;
+}
+
+.footer__subscribe p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #919191;
+  margin: 5% 0 3% 0;
+}
+
+.footer__subscribe form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15%;
+}
+
+.footer__subscribe form input {
+  width: 100%;
+  background-color: #4d4e52;
+  border: none;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 5%;
+}
+
+.footer__subscribe form input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #999999;
+}
+
+.footer__subscribe form input:-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #999999;
+}
+
+.footer__subscribe form input::-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #999999;
+}
+
+.footer__subscribe form input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #999999;
+}
+
+.footer__subscribe form button {
+  border: none;
+  background-color: #4d4e52;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-right: 4%;
+}
+
+.footer__subscribe form button:hover {
+  color: #d6cece;
+}
+
+.footer__subscribe_logo {
+  margin-top: 4%;
+}
+
+.footer__subscribe_logo object {
+  margin-right: 2%;
+}
+
+.footer__subscribe_logo object:hover {
+  background-color: #504f4f;
+}
 /*# sourceMappingURL=style.css.map */
