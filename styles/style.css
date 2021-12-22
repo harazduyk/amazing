@@ -165,7 +165,7 @@ body {
 .sed__faucibus {
   width: 50%;
   background-color: #f3f1ef;
-  padding: 8% 8% 2% 5%;
+  padding: 8% 8% 1% 5%;
 }
 
 .sed__faucibus h3 {
@@ -184,5 +184,16 @@ body {
   letter-spacing: 1px;
   color: #666666;
   margin-top: 5%;
+}
+
+.about {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about img {
+  max-width: 25%;
 }
 /*# sourceMappingURL=style.css.map */
