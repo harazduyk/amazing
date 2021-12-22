@@ -114,3 +114,35 @@ body {
         }
     }
 }
+
+.sed {
+    width: 100%;
+    display: flex;
+    &__photo {
+        width: 50%;
+        & img {
+            max-width: 100%;
+        }
+    }
+    &__faucibus {
+        width: 50%;
+        background-color: #f3f1ef;
+        padding: 8% 8% 2% 5%;
+        & h3 {
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #666666;
+        }
+        & p {
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 36px;
+            line-height: 1.2;
+            font-weight: 300;
+            letter-spacing: 1px;
+            color: #666666;
+            margin-top: 5%;
+        }
+    }
+}

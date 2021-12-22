@@ -146,4 +146,43 @@ body {
 .amazing p span {
   font-weight: 700;
 }
+
+.sed {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sed__photo {
+  width: 50%;
+}
+
+.sed__photo img {
+  max-width: 100%;
+}
+
+.sed__faucibus {
+  width: 50%;
+  background-color: #f3f1ef;
+  padding: 8% 8% 2% 5%;
+}
+
+.sed__faucibus h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+.sed__faucibus p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #666666;
+  margin-top: 5%;
+}
 /*# sourceMappingURL=style.css.map */
