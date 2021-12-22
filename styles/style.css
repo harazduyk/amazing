@@ -337,4 +337,105 @@ body {
 .self__effacing_rage a:hover {
   background-color: #13662c;
 }
+
+.spotify {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.spotify__follow {
+  width: 50%;
+  background-color: #2ebd59;
+  padding: 8% 0 8% 10%;
+}
+
+.spotify__follow h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f9f9f9;
+}
+
+.spotify__follow p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #f9f9f9;
+  margin: 5% 0 5% 0;
+}
+
+.spotify__follow a {
+  width: 43%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  padding: 2% 0;
+}
+
+.spotify__follow a:hover {
+  background-color: #20753a;
+}
+
+.spotify__itunes {
+  width: 50%;
+  background-color: #282b2f;
+  padding: 8% 0 8% 7%;
+}
+
+.spotify__itunes h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f9f9f9;
+}
+
+.spotify__itunes p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #f9f9f9;
+  margin: 5% 0 5% 0;
+}
+
+.spotify__itunes a {
+  width: 43%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  padding: 2% 0;
+}
+
+.spotify__itunes a:hover {
+  background-color: #4f5358;
+}
 /*# sourceMappingURL=style.css.map */
