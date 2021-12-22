@@ -260,4 +260,81 @@ body {
 .instagram__img img {
   max-width: 100%;
 }
+
+.self {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.self__bg {
+  width: 25%;
+  background-color: #282b2f;
+}
+
+.self__effacing {
+  width: 75%;
+  background-image: url("../images/bg_s5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 15%;
+}
+
+.self__effacing_rage {
+  width: 30%;
+  background-color: #212227;
+  padding: 10% 1% 8% 5%;
+}
+
+.self__effacing_rage h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2ebd59;
+}
+
+.self__effacing_rage h4 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #2ebd59;
+  margin-top: 3%;
+}
+
+.self__effacing_rage p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #f9f9f9;
+  margin: 9% 0 13% 0;
+}
+
+.self__effacing_rage a {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #2ebd59;
+  border: 2px solid #2ebd59;
+  border-radius: 25px;
+  padding: 2% 0;
+}
+
+.self__effacing_rage a:hover {
+  background-color: #13662c;
+}
 /*# sourceMappingURL=style.css.map */
