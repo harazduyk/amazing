@@ -1,0 +1,126 @@
+@media (min-width: 800px) and (max-width: 1288px) {
+    .sed__faucibus {
+        padding-bottom: 5%;
+    }
+    .instagram__etiam a {
+        width: 70%;
+    }
+    .self__effacing_rage a {
+        width: 70%;
+    }
+    .spotify__follow a {
+        width: 60%;
+    }
+    .spotify__itunes a {
+        width: 60%;
+    }
+    .footer__subscribe {
+        margin-top: 5%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+    .amazing #menu__toggle:checked~.menu__box {
+        width: 30%;
+    }
+    .sed__faucibus {
+        padding-bottom: 5%;
+    }
+    .instagram__etiam a {
+        width: 85%;
+        padding: 5% 0;
+    }
+    .self__effacing_rage {
+        padding: 3%;
+        & a {
+            width: 90%;
+        }
+    }
+    .spotify__follow a {
+        width: 80%;
+        padding: 5% 0;
+    }
+    .spotify__itunes a {
+        width: 80%;
+        padding: 5% 0;
+    }
+    .footer__subscribe {
+        margin-top: 5%;
+    }
+}
+
+@media (min-width: 370px) and (max-width: 680px) {
+    .amazing #menu__toggle:checked~.menu__box {
+        width: 45%;
+    }
+    .sed__photo {
+        width: 100%;
+    }
+    .sed__faucibus {
+        width: 100%;
+        padding: 8% 5% 8% 8%;
+    }
+    .about {
+        display: block;
+        & img {
+            max-width: 100%;
+        }
+    }
+    .instagram {
+        display: block;
+        &__etiam {
+            width: 100%;
+            padding: 8% 0 8% 8%;
+            & a {
+                width: 80%;
+                padding: 5% 0;
+            }
+        }
+        &__img {
+            width: 100%;
+            & img {
+                width: 100%;
+            }
+        }
+    }
+    .self {
+        display: block;
+        &__bg {
+            display: none;
+        }
+        &__effacing {
+            width: 100%;
+            &_rage {
+                width: 45%;
+                & a {
+                    width: 80%;
+                }
+            }
+        }
+    }
+    .spotify {
+        display: block;
+        &__follow {
+            width: 100%;
+            padding: 5%;
+            & a {
+                width: 70%;
+                padding: 5% 0;
+            }
+        }
+        &__itunes {
+            width: 100%;
+            padding: 5%;
+            & a {
+                width: 70%;
+                padding: 5% 0;
+            }
+        }
+    }
+    .footer__contact {
+        margin-top: 10%;
+    }
+    .footer__subscribe {
+        margin-top: 10%;
+    }
+}

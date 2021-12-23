@@ -47,8 +47,8 @@ body {
 
 .amazing #menu__toggle:checked ~ .menu__box {
   visibility: visible;
-  right: 7%;
-  top: 20%;
+  right: 10%;
+  top: 7%;
   width: 20%;
   padding: 5px 2px 5px 2px;
   background-color: #e1f8f9;
@@ -152,6 +152,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .sed__photo {
@@ -444,6 +446,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -582,10 +586,6 @@ body {
   padding-right: 4%;
 }
 
-.footer__subscribe form button:hover {
-  color: #d6cece;
-}
-
 .footer__subscribe_logo {
   margin-top: 4%;
 }
@@ -596,5 +596,132 @@ body {
 
 .footer__subscribe_logo object:hover {
   background-color: #504f4f;
+}
+
+@media (min-width: 800px) and (max-width: 1288px) {
+  .sed__faucibus {
+    padding-bottom: 5%;
+  }
+  .instagram__etiam a {
+    width: 70%;
+  }
+  .self__effacing_rage a {
+    width: 70%;
+  }
+  .spotify__follow a {
+    width: 60%;
+  }
+  .spotify__itunes a {
+    width: 60%;
+  }
+  .footer__subscribe {
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+  .amazing #menu__toggle:checked ~ .menu__box {
+    width: 30%;
+  }
+  .sed__faucibus {
+    padding-bottom: 5%;
+  }
+  .instagram__etiam a {
+    width: 85%;
+    padding: 5% 0;
+  }
+  .self__effacing_rage {
+    padding: 3%;
+  }
+  .self__effacing_rage a {
+    width: 90%;
+  }
+  .spotify__follow a {
+    width: 80%;
+    padding: 5% 0;
+  }
+  .spotify__itunes a {
+    width: 80%;
+    padding: 5% 0;
+  }
+  .footer__subscribe {
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 370px) and (max-width: 680px) {
+  .amazing #menu__toggle:checked ~ .menu__box {
+    width: 45%;
+  }
+  .sed__photo {
+    width: 100%;
+  }
+  .sed__faucibus {
+    width: 100%;
+    padding: 8% 5% 8% 8%;
+  }
+  .about {
+    display: block;
+  }
+  .about img {
+    max-width: 100%;
+  }
+  .instagram {
+    display: block;
+  }
+  .instagram__etiam {
+    width: 100%;
+    padding: 8% 0 8% 8%;
+  }
+  .instagram__etiam a {
+    width: 80%;
+    padding: 5% 0;
+  }
+  .instagram__img {
+    width: 100%;
+  }
+  .instagram__img img {
+    width: 100%;
+  }
+  .self {
+    display: block;
+  }
+  .self__bg {
+    display: none;
+  }
+  .self__effacing {
+    width: 100%;
+  }
+  .self__effacing_rage {
+    width: 45%;
+  }
+  .self__effacing_rage a {
+    width: 80%;
+  }
+  .spotify {
+    display: block;
+  }
+  .spotify__follow {
+    width: 100%;
+    padding: 5%;
+  }
+  .spotify__follow a {
+    width: 70%;
+    padding: 5% 0;
+  }
+  .spotify__itunes {
+    width: 100%;
+    padding: 5%;
+  }
+  .spotify__itunes a {
+    width: 70%;
+    padding: 5% 0;
+  }
+  .footer__contact {
+    margin-top: 10%;
+  }
+  .footer__subscribe {
+    margin-top: 10%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

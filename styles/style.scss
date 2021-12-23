@@ -32,8 +32,8 @@ body {
     }
     #menu__toggle:checked~.menu__box {
         visibility: visible;
-        right: 7%;
-        top: 20%;
+        right: 10%;
+        top: 7%;
         width: 20%;
         padding: 5px 2px 5px 2px;
         background-color: #e1f8f9;
@@ -118,6 +118,7 @@ body {
 .sed {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     &__photo {
         width: 50%;
         & img {
@@ -351,6 +352,7 @@ body {
 .footer {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #212227;
     padding: 7% 1% 7% 6%;
@@ -444,9 +446,6 @@ body {
                 align-items: center;
                 justify-content: space-evenly;
                 padding-right: 4%;
-                &:hover {
-                    color: #d6cece;
-                }
             }
         }
         &_logo {
@@ -460,3 +459,5 @@ body {
         }
     }
 }
+
+@import "_media.scss";
