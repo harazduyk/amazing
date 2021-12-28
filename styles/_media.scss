@@ -50,8 +50,14 @@
 }
 
 @media (min-width: 370px) and (max-width: 680px) {
+    .amazing h1 {
+        font-size: 50px;
+    }
     .amazing #menu__toggle:checked~.menu__box {
         width: 45%;
+    }
+    .sed__faucibus p {
+        font-size: 25px;
     }
     .sed__photo {
         width: 100%;
@@ -61,6 +67,7 @@
         padding: 8% 5% 8% 8%;
     }
     .about {
+        width: 100%;
         display: block;
         & img {
             max-width: 100%;
@@ -74,6 +81,9 @@
             & a {
                 width: 80%;
                 padding: 5% 0;
+            }
+            p {
+                font-size: 20px;
             }
         }
         &__img {
@@ -90,8 +100,9 @@
         }
         &__effacing {
             width: 100%;
+            padding: 10% 0 10% 22%;
             &_rage {
-                width: 45%;
+                width: 70%;
                 & a {
                     width: 80%;
                 }
@@ -107,6 +118,9 @@
                 width: 70%;
                 padding: 5% 0;
             }
+            p {
+                font-size: 25px;
+            }
         }
         &__itunes {
             width: 100%;
@@ -115,6 +129,9 @@
                 width: 70%;
                 padding: 5% 0;
             }
+            p {
+                font-size: 25px;
+            }
         }
     }
     .footer__contact {
@@ -122,5 +139,21 @@
     }
     .footer__subscribe {
         margin-top: 10%;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 2560px) {
+    .sed {
+        &__photo {
+            & img {
+                width: 100%;
+            }
+        }
+    }
+    .about img {
+        width: 25%;
+    }
+    .instagram__img img {
+        width: 50%;
     }
 }
